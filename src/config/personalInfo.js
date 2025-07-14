@@ -2,19 +2,12 @@
 
 // Archivo de configuración para datos personales del portfolio
 
-// Importación de imágenes
-import avatar from "src/assets/agus.jpg";
-import snippetflowImg from "src/assets/projects/snippetflow.png";
-import slotsImg from "src/assets/projects/slots.png";
-import bitllesImg from "src/assets/projects/bitlles.png";
-import ecommerceImg from "src/assets/projects/ecommerce.png";
-
 
 export const personalInfo = {
   name: "Agustín Vera Faustino",
   role: "Desarrollador Full Stack",
   description: "Desarrollo aplicaciones web completas, robustas y escalables, abarcando tanto el frontend como el backend, con enfoque en buenas prácticas, rendimiento y mantenibilidad.",
-  avatarUrl: avatar, // Reemplaza con la URL de tu imagen
+  avatarUrl: "/assets/agus.jpg", // Reemplaza con la URL de tu imagen
   socialLinks: {
     linkedin: "https://linkedin.com/in/agustiinveraa/",
     github: "https://github.com/tu-usuario",
@@ -86,7 +79,7 @@ export const personalInfo = {
       {
         name: "SnippetFlow Landing Page",
         description: "Este proyecto es la landing page de una startup que estamos desarrollando actualmente. Su objetivo es validar el interés del mercado mediante una waitlist. Está diseñada con un enfoque limpio, moderno y responsivo, priorizando la claridad del mensaje y la conversión del usuario. Además de su diseño visual, se optimizó la funcionalidad para captar leads de forma eficiente y medir la tracción inicial del proyecto.",
-        image: snippetflowImg,
+        image: "/assets/projects/snippetflow.png",
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
@@ -98,7 +91,7 @@ export const personalInfo = {
       {
         name: "ImgLite",
         description: "Una aplicación web de optimización de imágenes que destaca por su rapidez y eficiencia, con su propia documentación en la web. Construida con React y Node.js, la aplicación utiliza Cloudinary para el manejo y optimización de imágenes, asegurando entregas rápidas y de alta calidad. ImgLite ofrece una solución robusta y escalable para la optimización de imágenes en línea, permitiendo ajustar la calidad, elegir entre formatos como PNG, JPEG, WEBP o AVIF y descargar el resultado optimizado.",
-        image: "https://private-user-images.githubusercontent.com/87144030/416338209-49385a82-ef21-42f9-89d6-eedb9dc821c3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI1MDI2MDQsIm5iZiI6MTc1MjUwMjMwNCwicGF0aCI6Ii84NzE0NDAzMC80MTYzMzgyMDktNDkzODVhODItZWYyMS00MmY5LTg5ZDYtZWVkYjlkYzgyMWMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzE0VDE0MTE0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyMzc0MjE0OWFjZTU5YjAwNTRkOGJjMDk2ZGQxMGUwNDAzZjZmODIxZTE0MDczZDIwYjJmZDZlN2NhNTJhYzAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dn9Dv42Pe9VjZBrwsl3iuAgHBw9fZxZbxUDc53ghg6g",
+        image: "/assets/projects/imglite.png",
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -113,7 +106,7 @@ export const personalInfo = {
       {
         name: "Slots Casino",
         description: "Lideré Slots Casino como proyecto final en equipo, obteniendo una excelente calificación por su diseño, funcionalidad y características avanzadas. Es un casino online fullstack totalmente funcional, con pasarela de pago integrada y cuatro juegos: blackjack, poker con bots, ruleta y slots. Incluye quests diarias, sistema de ticketing, y un panel de administración completo. Desarrollado con React, Tailwind, Node.js, Express y MySQL, y autenticación JWT. Usamos metodologías ágiles (Scrum) y herramientas como Jira para una gestión eficiente en equipo.",
-        image: slotsImg,
+        image: "/assets/projects/slots.png",
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -129,7 +122,7 @@ export const personalInfo = {
       {
         name: "Sistema de Gestión de Torneos de Bitlles Catalanes",
         description: "Plataforma completa para la gestión de torneos de Bitlles Catalanes con diferentes roles de usuario (Admin, Árbitro, Jugador). El sistema permite la creación y administración de torneos, arbitraje en línea con actualizaciones en tiempo real mediante WebSockets, gestión de usuarios con diferentes permisos, y un completo sistema de estadísticas y clasificaciones. Implementa autenticación JWT, sesiones seguras, y una arquitectura robusta que garantiza la integridad de los datos deportivos.",
-        image: slotsImg,
+        image: "/assets/projects/bitlles.png",
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -146,7 +139,7 @@ export const personalInfo = {
       {
         name: "Funda Creativa",
         description: "Un e-commerce marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Este proyecto completo fue presentado en clase y valorado con una calificación excelente. Implementa un sistema completo de compras, gestión de productos, usuarios y pedidos.",
-        image: ecommerceImg,
+        image: "/assets/projects/ecommerce.png",
         technologies: [
           { name: "Laravel", color: "#FF2D20", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
           { name: "Spring Boot", color: "#6DB33F", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
