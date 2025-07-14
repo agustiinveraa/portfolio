@@ -1,0 +1,111 @@
+/* Estilos para el fondo ondulado animado */
+.wavy-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background: #000;
+}
+
+.gradient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  mix-blend-mode: screen;
+  animation: float 15s ease-in-out infinite;
+  transition: all 0.5s ease;
+}
+
+.blob-1 {
+  top: 20%;
+  left: 15%;
+  width: 30vw;
+  height: 30vw;
+  background: radial-gradient(circle at center, #3b82f6, #4338ca);
+  animation-delay: 0s;
+}
+
+.blob-2 {
+  bottom: 10%;
+  right: 20%;
+  width: 25vw;
+  height: 25vw;
+  background: radial-gradient(circle at center, #8b5cf6, #6366f1);
+  animation-delay: -5s;
+}
+
+.blob-3 {
+  top: 50%;
+  left: 50%;
+  width: 20vw;
+  height: 20vw;
+  background: radial-gradient(circle at center, #ec4899, #8b5cf6);
+  animation-delay: -10s;
+}
+
+/* Animación para el indicador de scroll */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+/* Estilos para las partículas flotantes */
+.particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+/* Glassmorphism para las secciones de contenido */
+.glass-card {
+  background: rgba(26, 32, 44, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+}
+
+/* Overlay para mejorar la legibilidad del texto sobre el fondo animado */
+.content-overlay {
+  position: relative;
+  z-index: 1;
+  padding: 1rem;
+}

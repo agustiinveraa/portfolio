@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos básicos cuando Tailwind no se carga correctamente */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111827; 
+  color: white;
+  font-family: 'Onest', system-ui, sans-serif;
+}
+
+/* Fallback for animation if Tailwind doesn't load */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-\[spin_2s_linear_infinite\] {
+  animation: spin 2s linear infinite;
+}
