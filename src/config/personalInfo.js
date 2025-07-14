@@ -10,8 +10,8 @@ export const personalInfo = {
   avatarUrl: "/assets/agus.jpg", // Reemplaza con la URL de tu imagen
   socialLinks: {
     linkedin: "https://linkedin.com/in/agustiinveraa/",
-    github: "https://github.com/tu-usuario",
-    cv: "/tu-curriculum.pdf" // Coloca tu CV en la carpeta public
+    github: "https://github.com/agustiinveraa",
+    cv: "/assets/cv.pdf" // Coloca tu CV en la carpeta public
   },
   contact: {
     email: "averafaus05@gmail.com",
@@ -29,10 +29,10 @@ export const personalInfo = {
     skills: [
       { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
       { name: "Vue", color: "#4FC08D", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
-      { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+      { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
       { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
       { name: "Express", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-      { name: "Laravel", color: "#FF2D20", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
+      { name: "Laravel", color: "#FF2D20", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
       { name: "Java", color: "#ED8B00", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
       { name: "Spring Boot", color: "#6DB33F", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
       { name: "MySQL", color: "#4479A1", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
@@ -44,6 +44,8 @@ export const personalInfo = {
       { name: "Git", color: "#F05032", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "GitHub", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
       { name: "Docker", color: "#2496ED", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+      { name: "JavaScript", color: "#F7DF1E", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { name: "PHP", color: "#777BB4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
       { name: "TypeScript", color: "#3178C6", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
       { name: "WordPress", color: "#21759B", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
       { name: "WooCommerce", color: "#96588A", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" }
@@ -64,7 +66,7 @@ export const personalInfo = {
           { name: "WordPress", color: "#21759B", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
           { name: "WooCommerce", color: "#96588A", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" },
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-          { name: "Laravel", color: "#FF2D20", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
+          { name: "Laravel", color: "#FF2D20", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
           { name: "Ionic", color: "#3880FF", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" },
           { name: "Git", color: "#F05032", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" }
         ]
@@ -82,7 +84,7 @@ export const personalInfo = {
         image: "/assets/projects/snippetflow.png",
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "Radix UI", color: "#7C3AED", icon: "https://cdn.simpleicons.org/radixui/7C3AED" },
         ],
         liveUrl: "https://snippetflow.com/",
@@ -96,7 +98,7 @@ export const personalInfo = {
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
           { name: "Express", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "Cloudinary", color: "#3448C5", icon: "https://cdn.simpleicons.org/cloudinary/3448C5" }
         ],
         liveUrl: "#",
@@ -112,7 +114,7 @@ export const personalInfo = {
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
           { name: "Express", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
           { name: "MySQL", color: "#4479A1", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "JWT", color: "#ffffff", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jsonwebtokens.svg" }
         ],
         liveUrl: "#",
@@ -128,7 +130,7 @@ export const personalInfo = {
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
           { name: "Express", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
           { name: "MySQL", color: "#4479A1", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "Socket.io", color: "#ffffff", icon: "https://cdn.simpleicons.org/socketdotio/010101" },
           { name: "JWT", color: "#ffffff", icon: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/jsonwebtokens.svg" }
         ],
@@ -141,9 +143,9 @@ export const personalInfo = {
         description: "Un e-commerce marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Este proyecto completo fue presentado en clase y valorado con una calificación excelente. Implementa un sistema completo de compras, gestión de productos, usuarios y pedidos.",
         image: "/assets/projects/ecommerce.png",
         technologies: [
-          { name: "Laravel", color: "#FF2D20", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
+          { name: "Laravel", color: "#FF2D20", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
           { name: "Spring Boot", color: "#6DB33F", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
-          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "DaisyUI", color: "#5A0EF8", icon: "https://cdn.simpleicons.org/daisyui/5A0EF8" },
           { name: "JavaScript", color: "#F7DF1E", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
           { name: "jQuery", color: "#0769AD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" },
