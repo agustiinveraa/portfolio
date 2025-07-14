@@ -2,11 +2,19 @@
 
 // Archivo de configuración para datos personales del portfolio
 
+// Importación de imágenes
+import avatar from "src/assets/agus.jpg";
+import snippetflowImg from "src/assets/projects/snippetflow.png";
+import slotsImg from "src/assets/projects/slots.png";
+import bitllesImg from "src/assets/projects/bitlles.png";
+import ecommerceImg from "src/assets/projects/ecommerce.png";
+
+
 export const personalInfo = {
   name: "Agustín Vera Faustino",
   role: "Desarrollador Full Stack",
   description: "Desarrollo aplicaciones web completas, robustas y escalables, abarcando tanto el frontend como el backend, con enfoque en buenas prácticas, rendimiento y mantenibilidad.",
-  avatarUrl: "src/assets/agus.jpg", // Reemplaza con la URL de tu imagen
+  avatarUrl: avatar, // Reemplaza con la URL de tu imagen
   socialLinks: {
     linkedin: "https://linkedin.com/in/agustiinveraa/",
     github: "https://github.com/tu-usuario",
@@ -78,7 +86,7 @@ export const personalInfo = {
       {
         name: "SnippetFlow Landing Page",
         description: "Este proyecto es la landing page de una startup que estamos desarrollando actualmente. Su objetivo es validar el interés del mercado mediante una waitlist. Está diseñada con un enfoque limpio, moderno y responsivo, priorizando la claridad del mensaje y la conversión del usuario. Además de su diseño visual, se optimizó la funcionalidad para captar leads de forma eficiente y medir la tracción inicial del proyecto.",
-        image: "src/assets/projects/snippetflow.png",
+        image: snippetflowImg,
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
@@ -105,7 +113,7 @@ export const personalInfo = {
       {
         name: "Slots Casino",
         description: "Lideré Slots Casino como proyecto final en equipo, obteniendo una excelente calificación por su diseño, funcionalidad y características avanzadas. Es un casino online fullstack totalmente funcional, con pasarela de pago integrada y cuatro juegos: blackjack, poker con bots, ruleta y slots. Incluye quests diarias, sistema de ticketing, y un panel de administración completo. Desarrollado con React, Tailwind, Node.js, Express y MySQL, y autenticación JWT. Usamos metodologías ágiles (Scrum) y herramientas como Jira para una gestión eficiente en equipo.",
-        image: "src/assets/projects/slots.png",
+        image: slotsImg,
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -121,7 +129,7 @@ export const personalInfo = {
       {
         name: "Sistema de Gestión de Torneos de Bitlles Catalanes",
         description: "Plataforma completa para la gestión de torneos de Bitlles Catalanes con diferentes roles de usuario (Admin, Árbitro, Jugador). El sistema permite la creación y administración de torneos, arbitraje en línea con actualizaciones en tiempo real mediante WebSockets, gestión de usuarios con diferentes permisos, y un completo sistema de estadísticas y clasificaciones. Implementa autenticación JWT, sesiones seguras, y una arquitectura robusta que garantiza la integridad de los datos deportivos.",
-        image: "src/assets/projects/bitlles.png",
+        image: slotsImg,
         technologies: [
           { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
           { name: "Node.js", color: "#339933", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -138,7 +146,7 @@ export const personalInfo = {
       {
         name: "Funda Creativa",
         description: "Un e-commerce marketplace desarrollado íntegramente por mí, incluyendo el diseño, el frontend, el backend y la base de datos. Este proyecto completo fue presentado en clase y valorado con una calificación excelente. Implementa un sistema completo de compras, gestión de productos, usuarios y pedidos.",
-        image: "src/assets/projects/ecommerce.png",
+        image: ecommerceImg,
         technologies: [
           { name: "Laravel", color: "#FF2D20", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" },
           { name: "Spring Boot", color: "#6DB33F", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
