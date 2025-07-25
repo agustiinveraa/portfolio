@@ -27,6 +27,7 @@ export const personalInfo = {
       "He trabajado tanto en frontend como en backend, desarrollando interfaces funcionales y APIs robustas con Node.js, Express y Laravel. También cuento con experiencia en control de versiones con Git, uso de metodologías ágiles y aplicación de patrones de diseño para garantizar soluciones escalables y mantenibles."
     ],
     skills: [
+      { name: "Next.js", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
       { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
       { name: "Vue", color: "#4FC08D", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
       { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
@@ -35,6 +36,7 @@ export const personalInfo = {
       { name: "Laravel", color: "#FF2D20", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
       { name: "Java", color: "#ED8B00", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
       { name: "Spring Boot", color: "#6DB33F", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+      { name: "Supabase", color: "#3ECF8E", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
       { name: "MySQL", color: "#4479A1", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
       { name: "PostgreSQL", color: "#336791", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
       { name: "MongoDB", color: "#47A248", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
@@ -48,7 +50,9 @@ export const personalInfo = {
       { name: "PHP", color: "#777BB4", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
       { name: "TypeScript", color: "#3178C6", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
       { name: "WordPress", color: "#21759B", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
-      { name: "WooCommerce", color: "#96588A", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" }
+      { name: "WooCommerce", color: "#96588A", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" },
+      
+
     ]
   },
   
@@ -78,6 +82,19 @@ export const personalInfo = {
   projects: {
     title: "Proyectos",
     list: [
+      {
+        name: "InmoFlow CRM Inmobiliario",
+        description: "CRM completo con interfaz limpia y sencilla para agentes inmobiliarios con autenticación mediante email/contraseña, gestión automática de perfiles y sesiones con Supabase Auth. Incluye gestión completa de propiedades (listado, creación, edición, subida de fotos), módulo de clientes para gestión de leads, agenda de visitas con sistema CRUD, dashboard con estadísticas y panel de configuración de usuario. Desarrollado con Next.js, Tailwind CSS, GSAP para animaciones y Supabase como backend.",
+        image: "/assets/projects/inmoflow.png",
+        technologies: [
+          { name: "Next.js", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+          { name: "GSAP", color: "#88CE02", icon: "https://cdn.simpleicons.org/greensock/88CE02" },
+          { name: "Supabase", color: "#3ECF8E", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
+        ],
+        liveUrl: "https://snippetflow.com/",
+        repoUrl: "https://github.com/agustiinveraa/landing-snippetflow"
+      },
       {
         name: "SnippetFlow Landing Page",
         description: "Este proyecto es la landing page de una startup que estamos desarrollando actualmente. Su objetivo es validar el interés del mercado mediante una waitlist. Está diseñada con un enfoque limpio, moderno y responsivo, priorizando la claridad del mensaje y la conversión del usuario. Además de su diseño visual, se optimizó la funcionalidad para captar leads de forma eficiente y medir la tracción inicial del proyecto.",
