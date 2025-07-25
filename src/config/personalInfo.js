@@ -92,8 +92,8 @@ export const personalInfo = {
           { name: "GSAP", color: "#88CE02", icon: "https://cdn.simpleicons.org/greensock/88CE02" },
           { name: "Supabase", color: "#3ECF8E", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
         ],
-        liveUrl: "https://snippetflow.com/",
-        repoUrl: "https://github.com/agustiinveraa/landing-snippetflow"
+        liveUrl: "#",
+        repoUrl: "https://github.com/agustiinveraa/inmoflow"
       },
       {
         name: "SnippetFlow Landing Page",
@@ -104,7 +104,7 @@ export const personalInfo = {
           { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
           { name: "Radix UI", color: "#7C3AED", icon: "https://cdn.simpleicons.org/radixui/7C3AED" },
         ],
-        liveUrl: "https://snippetflow.com/",
+        liveUrl: "#",
         repoUrl: "https://github.com/agustiinveraa/landing-snippetflow"
       },
       {
