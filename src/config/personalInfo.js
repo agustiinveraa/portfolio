@@ -51,7 +51,7 @@ export const personalInfo = {
       { name: "TypeScript", color: "#3178C6", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
       { name: "WordPress", color: "#21759B", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
       { name: "WooCommerce", color: "#96588A", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" },
-      
+      { name: "n8n", color: "#6933FF", icon: "https://cdn.simpleicons.org/n8n/6933FF" },
 
     ]
   },
