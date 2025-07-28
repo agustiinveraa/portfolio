@@ -83,6 +83,18 @@ export const personalInfo = {
     title: "Proyectos",
     list: [
       {
+        name: "Fidbaq",
+        description: "Fidbaq te ayuda a recopilar feedback, priorizar funcionalidades y construir lo que tus usuarios realmente quieren. Configura tu tablero en segundos y comienza a convertir ideas en acción. 100% gratuito con posibilidad de hacer upgrade si lo considera necesario.",
+        image: "/assets/projects/fidbaq.png",
+        technologies: [
+          { name: "Next.js", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+          { name: "Supabase", color: "#3ECF8E", icon: "https://cdn.simpleicons.org/supabase/3ECF8E" },
+        ],
+        liveUrl: "#",
+        repoUrl: "https://fidbaq.xyz/"
+      },
+      {
         name: "InmoFlow CRM Inmobiliario",
         description: "CRM completo con interfaz limpia y sencilla para agentes inmobiliarios con autenticación mediante email/contraseña, gestión automática de perfiles y sesiones con Supabase Auth. Incluye gestión completa de propiedades (listado, creación, edición, subida de fotos), módulo de clientes para gestión de leads, agenda de visitas con sistema CRUD, dashboard con estadísticas y panel de configuración de usuario. Desarrollado con Next.js, Tailwind CSS, GSAP para animaciones y Supabase como backend.",
         image: "/assets/projects/inmoflow.png",
