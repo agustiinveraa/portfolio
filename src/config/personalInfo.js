@@ -7,7 +7,7 @@ export const personalInfo = {
   name: "Agustín Vera Faustino",
   role: "Desarrollador Full Stack",
   description: "Desarrollo aplicaciones web completas, robustas y escalables, abarcando tanto el frontend como el backend, con enfoque en buenas prácticas, rendimiento y mantenibilidad.",
-  avatarUrl: "/assets/agus.jpg", // Reemplaza con la URL de tu imagen
+  avatarUrl: "/assets/foto-cv-fondonegro.webp", // Reemplaza con la URL de tu imagen
   socialLinks: {
     linkedin: "https://linkedin.com/in/agustiinveraa/",
     github: "https://github.com/agustiinveraa",
