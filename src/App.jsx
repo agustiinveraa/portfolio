@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import ScrollIndicator from './components/ScrollIndicator'
 import { personalInfo } from './config/personalInfo'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Projects />
         </div>
       </section>
+      <Analytics />
     </Layout>
   )
 }
