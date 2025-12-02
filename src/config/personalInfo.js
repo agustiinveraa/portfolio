@@ -83,7 +83,7 @@ export const personalInfo = {
     title: "Proyectos",
     list: [
       {
-        name: "Fidbaq",
+        name: "Fidbaq (Desactivado / Base de datos pausada)",
         description: "Fidbaq te ayuda a recopilar feedback, priorizar funcionalidades y construir lo que tus usuarios realmente quieren. Configura tu tablero en segundos y comienza a convertir ideas en acción. 100% gratuito con posibilidad de hacer upgrade si lo considera necesario.",
         image: "/assets/projects/fidbaq.png",
         technologies: [
