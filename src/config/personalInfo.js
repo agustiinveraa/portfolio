@@ -11,7 +11,7 @@ export const personalInfo = {
   socialLinks: {
     linkedin: "https://linkedin.com/in/agustiinveraa/",
     github: "https://github.com/agustiinveraa",
-    cv: "/assets/cv.pdf" // Coloca tu CV en la carpeta public
+    cv: "/assets/Agustin_Vera_Faustino_CV.pdf" // Coloca tu CV en la carpeta public
   },
   contact: {
     email: "averafaus05@gmail.com",
