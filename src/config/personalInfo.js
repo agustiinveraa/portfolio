@@ -9,7 +9,7 @@ export const personalInfo = {
   description: "Desarrollo aplicaciones web completas, robustas y escalables, abarcando tanto el frontend como el backend, con enfoque en buenas prácticas, rendimiento y mantenibilidad.",
   avatarUrl: "/assets/sinfondoagus.png", // Reemplaza con la URL de tu imagen
   socialLinks: {
-    linkedin: "https://linkedin.com/in/agustiinveraa/",
+    linkedin: "https://linkedin.com/in/agustin-vera-faustino/",
     github: "https://github.com/agustiinveraa",
     cv: "/assets/Agustin_Vera_Faustino_CV.pdf" // Coloca tu CV en la carpeta public
   },
@@ -23,8 +23,15 @@ export const personalInfo = {
   aboutMe: {
     title: "Sobre mí",
     paragraphs: [
-      "Desarrollador Full Stack con más de 1 año de experiencia en entornos ágiles y participación activa en proyectos reales. Durante mi etapa en Jaestic, SL, trabajé en el desarrollo y mantenimiento de sitios web con WordPress, así como en la creación de aplicaciones web y móviles con tecnologías como React, Laravel e Ionic.",
-      "He trabajado tanto en frontend como en backend, desarrollando interfaces funcionales y APIs robustas con Node.js, Express y Laravel. También cuento con experiencia en control de versiones con Git, uso de metodologías ágiles y aplicación de patrones de diseño para garantizar soluciones escalables y mantenibles."
+      "Desarrollador Full Stack con experiencia en aplicaciones web. Especializado en frontend utilizando React, Next.js, TypeScript y Tailwind CSS, y en backend desarrollando aplicaciones robustas con Laravel, Java y Spring Boot.",
+      "Experiencia en control de versiones, metodologías ágiles y patrones de diseño para garantizar soluciones escalables y mantenibles. Trabajo en desarrollo de SaaS y back office, aplicando testing y optimización de interfaces."
+    ],
+    techstackPrincipal: [
+      { name: "Next.js", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+      { name: "React", color: "#61DAFB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { name: "Laravel", color: "#FF2D20", icon: "https://cdn.simpleicons.org/laravel/FF2D20" },
+      { name: "Tailwind CSS", color: "#06B6D4", icon: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+      { name: "TypeScript", color: "#3178C6", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
     ],
     skills: [
       { name: "Next.js", color: "#ffffff", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },

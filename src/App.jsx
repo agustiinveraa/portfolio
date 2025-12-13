@@ -7,12 +7,13 @@ import Projects from './components/Projects'
 import ScrollIndicator from './components/ScrollIndicator'
 import { personalInfo } from './config/personalInfo'
 import { Analytics } from "@vercel/analytics/react"
+import Footer from './components/Footer'
 
 function App() {
   return (
     <Layout>
       {/* Hero Section - Full Height */}
-      <section className="min-h-screen flex flex-col justify-center items-center">
+      <section id="hero" className="min-h-screen flex flex-col justify-center items-center">
         <Hero 
           name={personalInfo.name} 
           description={personalInfo.description}
@@ -23,16 +24,17 @@ function App() {
       {/* Content Section - Hidden initially, shown after scroll */}
       <section id="content">
         {/* About & Experience Section - Side by Side */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+        <div id="about" className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           <AboutMe />
-          <Experience />
+          <Experience/>
         </div>
         
         {/* Projects Section */}
-        <div className="mt-16">
+        <div id="projects" className="mt-16">
           <Projects />
         </div>
       </section>
+      {/* <Footer /> */}
       <Analytics />
     </Layout>
   )
